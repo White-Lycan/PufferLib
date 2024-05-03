@@ -1,0 +1,218 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-05-03T16:08:03.781229",
+    "startedAt": "2024-05-03T16:08:02.873108",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config",
+        "pokemon_red",
+        "--vectorization",
+        "multiprocessing",
+        "--mode",
+        "train",
+        "--wandb-entity",
+        "lycan",
+        "--track"
+    ],
+    "state": "running",
+    "program": "/home/ai/pufferlib/demo.py",
+    "codePathLocal": "demo.py",
+    "codePath": "demo.py",
+    "git": {
+        "remote": "https://github.com/pufferai/pufferlib",
+        "commit": "099278551b047129da77d66b78ce80d7a9153647"
+    },
+    "email": null,
+    "root": "/home/ai/pufferlib",
+    "host": "Fang",
+    "username": "ai",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 4199.929000000003,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 4199.929,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 17.468059539794922
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 15.228477478027344
+    }
+}

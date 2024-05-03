@@ -3,11 +3,16 @@ import argparse
 import shutil
 import sys
 import os
+
 import importlib
 import inspect
 import yaml
-import pufferlib, pufferlib.utils
+
+import pufferlib
+import pufferlib.utils
+
 import clean_pufferl
+
 
 def load_from_config(env):
     with open('config.yaml') as f:
@@ -199,17 +204,14 @@ if __name__ == '__main__':
     args = pufferlib.namespace(**args)
 
     vec = args.vectorization
-    
-    args.vectorization = pufferlib.vectorization.Serial if 'serial' else pufferlib.vectorization.Multiprocessing if 'multiprocessing' else pufferlib.vectorization.Ray if 'ray' else ValueError(f'Invalid --vectorization (serial/multiprocessing/ray).')
-    """
     if vec == 'serial':
-         = 
-    elif vec == :
-        args.vectorization = 
+        args.vectorization = pufferlib.vectorization.Serial
+    elif vec == 'multiprocessing':
+        args.vectorization = pufferlib.vectorization.Multiprocessing
     elif vec == 'ray':
-        args.vectorization = 
+        args.vectorization = pufferlib.vectorization.Ray
     else:
-    """    
+        raise ValueError(f'Invalid --vectorization (serial/multiprocessing/ray).')
 
     if args.mode == 'sweep':
         args.track = True

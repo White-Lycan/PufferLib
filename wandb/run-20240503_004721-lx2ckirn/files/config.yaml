@@ -1,0 +1,47 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.7
+    code_path: code/demo.py
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.12
+    start_time: 1714711641.800335
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 13
+      - 14
+      - 16
+      - 23
+      4: 3.10.12
+      5: 0.13.7
+      8:
+      - 5
+cleanrl:
+  desc: null
+  value: Namespace(seed=1, torch_deterministic=True, device='cuda', total_timesteps=100000000,
+    learning_rate=0.00025, num_steps=128, anneal_lr=True, gamma=0.998, gae_lambda=0.95,
+    num_minibatches=4, update_epochs=3, norm_adv=True, clip_coef=0.1, clip_vloss=True,
+    ent_coef=0.01, vf_coef=0.5, max_grad_norm=0.5, target_kl=None, num_envs=128, envs_per_worker=4,
+    envs_per_batch=48, env_pool=True, verbose=True, data_dir='experiments', checkpoint_interval=200,
+    pool_kernel=[0], batch_size=32768, batch_rows=128, bptt_horizon=16, vf_clip_coef=0.1,
+    compile=True, compile_mode='reduce-overhead')
+env:
+  desc: null
+  value: Namespace(headless=True, state_path=None)
+policy:
+  desc: null
+  value: Namespace(input_size=512, hidden_size=512, output_size=512, framestack=3,
+    flat_size=1920)
+recurrent:
+  desc: null
+  value: Namespace(input_size=512, hidden_size=512, num_layers=1)
